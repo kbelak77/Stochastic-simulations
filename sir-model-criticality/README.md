@@ -19,4 +19,4 @@ python SIR_stoh.py
 python imunizacija.py
 ```
 
-Simulacije su ubrzane Numbinim JIT kompajlerom (`@njit`). Osnovni model s punim parametrima (posebno L = 128) traje dugo. Za brzu provjeru smanji `n_simulations` ili izbaci 128 iz `L_values`.
+Simulacije su ubrzane Numbinim JIT kompajlerom (`@njit`). Osnovni model s punim parametrima traje dugo. Za brzu provjeru može se smanjiti `n_simulations` ili izbaciti 128 iz `L_values`.
